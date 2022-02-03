@@ -1,12 +1,12 @@
-const additionalData = [19, 46, 14, 16, 76, 40, 29]
-const ageLists = [15, 24, 46, 12, 35, 72, 47, 83, 36, 76, ...additionalData]
+//--------| Example number One (1)
+console.log("-------Example 1-------")
 
-function addAgesTogether(additionPara) {
-  let agesAddedTogether = 0;
-  for (let i = 0; i < additionPara.length; i++) {
-    agesAddedTogether += additionPara[i]
-    console.log(agesAddedTogether)
-  }
-  return
+let boris = "Boris & Jeanette"
+let vlad = "Vlad & Kim"
+
+myNeighbors(boris, vlad)
+
+function myNeighbors(rightN, leftN) {
+  console.log("My right neighbors are " + rightN)
+  console.log("My left neighbors are " + leftN)
 }
-addAgesTogether(ageLists)
